@@ -19,10 +19,10 @@
 				["pikeman", "halberdier"],
 				["archer", "marksman"],
 				["griffin", "royalGriffin"],
-				["swordsman", "crusader"],
+				["mdtTemplar" "mdtPaladin"],
 				["monk", "zealot"],
 				["cavalier", "champion"],
-				["angel", "archangel", "mdtTemplar", "mdtPaladin"]
+				["angel", "archangel"]
 			],
 
 			"structures" :
@@ -35,7 +35,7 @@
 			{
 				"dwellingLvl7":   
 				{ 
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ], [ "noneOf", [ "dwellingLvl7B" ] ] ]
+					"requires" : [ "allOf", ]
 				},
 				"dwellingLvl7B" :
 				{
@@ -48,7 +48,7 @@
 						"gold" : 5000
 					},
 					"id" : 50, 
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "noneOf", [ "dwellingLvl7" ] ] ]
+					"requires" : [ "allOf", ]
 				},
 				"dwellingUpLvl7B" :
 				{
