@@ -35,7 +35,7 @@
 			{
 				"dwellingLvl7":   
 				{ 
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ], [ "noneOf", [ "dwellingLvl7B" ] ] ]
+					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ] ]
 				},
 				"dwellingLvl7B" :
 				{
@@ -47,7 +47,7 @@
 						"gold" : 10000
 					},
 					"id" : 50, 
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "blacksmith" ], [ "noneOf", [ "dwellingLvl7" ] ] ]
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "blacksmith" ] ]
 				},
 				"dwellingUpLvl7B" :
 				{
