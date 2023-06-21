@@ -31,7 +31,7 @@
 			"buildings" :
 			{
 
-				"dwellingLvl6":   { "requires" : [ "allOf", [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl6B" ] ] ] },
+				"dwellingLvl6":   { "requires" : [ "allOf", [ "dwellingLvl4" ] ] },
 				"dwellingLvl6B" :
 				{
 					"name" : "Ziggurat",
@@ -42,7 +42,7 @@
 						"ore" : 5
 					},
 					"id" : 49, 
-					"requires" : [ "allOf", [ "dwellingUpLvl4" ], [ "noneOf", [ "dwellingLvl6" ] ] ]
+					"requires" : [ "allOf", [ "dwellingUpLvl4" ] ]
 				},
 				"dwellingUpLvl6B" :
 				{
