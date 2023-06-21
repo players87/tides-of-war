@@ -48,7 +48,7 @@
 						"gold" : 5000
 					},
 					"id" : 50, 
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "noneOf", [ "dwellingLvl7" ] ] ]
+					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "noneOf" ] ]
 				},
 				"dwellingUpLvl7B" :
 				{
