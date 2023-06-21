@@ -32,7 +32,7 @@
 
 			"buildings" :
 			{
-				"dwellingLvl5":   { "requires" : ["allOf", [ "dwellingLvl4" ], [ "noneOf", [ "dwellingLvl5B" ] ] ] },
+				"dwellingLvl5":   { "requires" : ["allOf", [ "dwellingLvl4" ] ] },
 				"dwellingLvl5B" :
 				{
 					"name" : "Primeval Maw",
@@ -42,7 +42,7 @@
 						"gold" : 1000
 					},
 					"id" : 48, 
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl5" ] ] ]
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "mageGuild1" ] ]
 				},
 				"dwellingUpLvl5B" :
 				{
