@@ -34,7 +34,7 @@
 			{
 			"dwellingLvl5":   
 			{ 
-				"requires" : [ "allOf", [ "dwellingLvl2" ], [ "dwellingLvl3" ], [ "noneOf", [ "dwellingLvl5B" ] ] ]
+				"requires" : [ "allOf", [ "dwellingLvl2" ], [ "dwellingLvl3" ] ]
 			},
 			
 			"dwellingLvl5B" :
@@ -47,7 +47,7 @@
 						"wood" : 5,
 						"sulfur" : 5
 					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "dwellingLvl2" ], [ "dwellingLvl3" ], [ "noneOf", [ "dwellingLvl5" ] ] ],
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "dwellingLvl2" ], [ "dwellingLvl3" ] ],
 					"id" : 48
 				},
 			"dwellingUpLvl5B" :
