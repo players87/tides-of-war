@@ -19,10 +19,10 @@
 				["pikeman", "halberdier"],
 				["archer", "marksman"],
 				["griffin", "royalGriffin"],
-				["swordsman", "crusader"],
+				["swordsman", "crusader", "mdtTemplar", "mdtPaladin"],
 				["monk", "zealot"],
 				["cavalier", "champion"],
-				["angel", "archangel", "mdtTemplar", "mdtPaladin"]
+				["angel", "archangel"]
 			],
 
 			"structures" :
