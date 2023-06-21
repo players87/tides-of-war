@@ -33,7 +33,7 @@
 			{
 			"dwellingLvl3":   
 				{ 
-				"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl3B" ] ] ]
+				"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1"  ] ]
 				},
 			
 			"dwellingLvl3B" :
@@ -46,7 +46,7 @@
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1" ], [ "noneOf", [ "dwellingLvl3" ] ] ],
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "mageGuild1"  ] ],
 					"id" : 46
 				},
 			"dwellingUpLvl3B" :
