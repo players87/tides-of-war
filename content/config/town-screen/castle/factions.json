@@ -35,7 +35,7 @@
 			{
 				"dwellingLvl7":   
 				{ 
-					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ], [ "noneOf", [ "dwellingLvl7B" ] ] ]
+					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "noneOf", [ "dwellingLvl7B" ] ] ]
 				},
 				"dwellingLvl7B" :
 				{
