@@ -33,7 +33,7 @@
 			{
 			"dwellingLvl4":   
 				{ 
-				"requires" : [ "allOf", [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl4B" ] ] ]
+				"requires" : [ "allOf", [ "dwellingLvl2" ] ]
 				},
 			
 			"dwellingLvl4B" :
@@ -45,7 +45,7 @@
 						"gold" : 2000,
 						"mercury" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "noneOf", [ "dwellingLvl4" ] ] ],
+					"requires" : [ "allOf", [ "dwellingLvl1" ] ],
 					"id" : 47
 				},
 			"dwellingUpLvl4B" :
